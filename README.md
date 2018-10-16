@@ -2,10 +2,10 @@
 
 Python module containing a set of classes / functions which can price a basic consumer loan given the following inputs:
 -amount,
--term in months,
--apr,
--lending date,
--repayment_day_of_month
+  -term in months,
+    -apr,
+      -lending date,
+        -repayment_day_of_month
 
 returns:
 -the annuity amount
