@@ -12,12 +12,12 @@ returns:
 -the annuity amount
 -the future cashflow schedule (due date, amount due on date, capital component, interest component, and any other relevant info)
 
-#Files:
+# Files:
 ======
 File1 = yobota_price.py
 File2 = test_yobotaprice.py
 
-##File1:-
+## File1:-
 =========
 Loan Class: Contains the following data and methods
 ### class inputs:
