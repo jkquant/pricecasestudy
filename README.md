@@ -26,16 +26,17 @@ Loan Class: Contains the following data and methods
 ### class output: 
 - future cash flow schedule
 Execute file1 with command line parameters: 
-  para1=amount para2=term_in_months para3=APR para4=lending_date(format=yyyy-mm-dd) para5=repayment_day_of_month
+
+    para1=amount para2=term_in_months para3=APR para4=lending_date(format=yyyy-mm-dd) para5=repayment_day_of_month
   
 * from command line run: 
 
-          python yobota_price.py 10000 12 5 2018-10-11 1
+      python yobota_price.py 10000 12 5 2018-10-11 1
           
 outputs cash flow schedule in a pandas dataframe
 
 ## File2: Unittest for ValueErrors and TypeErrors
 * from command line run: 
 
-          pyhton -m unittest
+       pyhton -m unittest
 
