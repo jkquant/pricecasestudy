@@ -30,11 +30,12 @@ Execute file1 with command line parameters:
   
 * from command line run: 
 
-          `python yobota_price.py 10000 12 5 2018-10-11 1`
+          python yobota_price.py 10000 12 5 2018-10-11 1
+          
 outputs cash flow schedule in a pandas dataframe
 
 ## File2: Unittest for ValueErrors and TypeErrors
 * from command line run: 
 
-          `pyhton -m unittest`
+          pyhton -m unittest
 
