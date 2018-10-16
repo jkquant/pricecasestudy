@@ -20,14 +20,14 @@ returns:
 =========
 Loan Class: Contains the following data and methods
 ### class inputs:
--self.principal = principal amount
--self.n = number of periods in months
--self.interest = (apr/100)/12
--self.loan_date = lending date
--self.pay_day = repayment_day_of_month
+- self.principal = principal amount
+- self.n = number of periods in months
+- self.interest = (apr/100)/12
+- self.loan_date = lending date
+- self.pay_day = repayment_day_of_month
 
 ### class output: 
--future cash flow schedule
+- future cash flow schedule
 Execute file with command line parameters: 
   para1=amount para2=term_in_months para3=APR para4=lending_date(format=yyyy-mm-dd) para5=repayment_day_of_month
   
@@ -35,7 +35,7 @@ from command line run:
           python yobota_price.py 10000 12 5 2018-10-11 1
 outputs cash flow schedule in a pandas dataframe
 
-##File2: Unittest for ValueErrors and TypeErrors
+## File2: Unittest for ValueErrors and TypeErrors
 from command line run: 
           pyhton -m unittest
           
