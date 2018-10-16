@@ -17,14 +17,17 @@ returns:
 
 ## File1:- Executes the Pricer
 Loan Class: Contains the following data and methods
-### class inputs:
+#### class inputs:
 - self.principal = principal amount
 - self.n = number of periods in months
 - self.interest = (apr/100)/12
 - self.loan_date = lending date
 - self.pay_day = repayment_day_of_month
-### class output: 
-- future cash flow schedule
+#### class methods: 
+- payment_m()  Returns the monthly payment due
+- capital_m()  Returns the capital component of monthly payment due
+- interest_m()  Returns the interest component of monthly payment due
+- schedule() Returns Future Cashflow Schedule
 
 Execute file1 with command line parameters: 
 
