@@ -39,7 +39,7 @@ Execute file1 with command line parameters:
           
 outputs cash flow schedule in a pandas dataframe
 
-## File2: Unittest for ValueErrors and TypeErrors
+## File2: Unittest 
 * from command line run: 
 
        pyhton -m unittest
