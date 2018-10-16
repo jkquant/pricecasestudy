@@ -24,10 +24,10 @@ Loan Class: Contains the following data and methods
 - self.loan_date = lending date
 - self.pay_day = repayment_day_of_month
 #### class methods: 
-- payment_m()  Returns the monthly payment due
-- capital_m()  Returns the capital component of monthly payment due
-- interest_m()  Returns the interest component of monthly payment due
-- schedule() Returns Future Cashflow Schedule
+- payment_m( )  Returns the monthly payment due
+- capital_m( )  Returns the capital component of monthly payment due
+- interest_m( )  Returns the interest component of monthly payment due
+- schedule( ) Returns Future Cashflow Schedule
 
 Execute file1 with command line parameters: 
 
