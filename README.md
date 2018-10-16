@@ -15,7 +15,7 @@ returns:
 - File1 = yobota_price.py
 - File2 = test_yobotaprice.py
 
-## File1:- 
+## File1:- Executes the Pricer
 Loan Class: Contains the following data and methods
 ### class inputs:
 - self.principal = principal amount
@@ -25,6 +25,7 @@ Loan Class: Contains the following data and methods
 - self.pay_day = repayment_day_of_month
 ### class output: 
 - future cash flow schedule
+
 Execute file1 with command line parameters: 
 
     para1=amount para2=term_in_months para3=APR para4=lending_date(format=yyyy-mm-dd) para5=repayment_day_of_month
