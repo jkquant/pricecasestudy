@@ -1,5 +1,4 @@
 # pricecasestudy
-================
 
 Python module containing a set of classes / functions which can price a basic consumer loan given the following inputs:
 - amount,
